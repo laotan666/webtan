@@ -1,0 +1,75 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	background-image:url(flower5.jpg);
+	width:100vw;
+	height:100vh;
+	background-repeat:  no-repeat;
+	background-size:cover;
+}
+.frist
+{	
+	height:200px;
+	width:100%;
+	margin:14em 0em;
+	background-color:hsla(0,0%,100%,.3);
+	display:flex;
+	flex-direction: column;
+}
+.content-font
+{   
+	flex:1;
+	display: flex;
+	justify-content: center;
+	margin-top:11vh;
+}
+.content-font span
+{
+	font-size:40px;
+	color:coral;
+	font-family:"STXingkai";
+	font-weight:500;
+}
+.content-image
+{
+	flex:1;
+	display: flex;
+	justify-content:flex-end;
+	
+
+}
+.content-image span
+{
+	font-size:40px;
+	padding-right:30px;
+	color:rgba(120,108,108,1.00);
+	text-decoration: none;
+}
+.content-image a
+{
+	font-size:20px;
+	color:rgba(69,127,228,1.00);
+	font-family:"YouYuan";
+	font-weight: 600;
+	margin-right:80px;
+}
+
+.content-image a:hover
+{
+	font-size:24px;
+	text-decoration: none;
+	font-weight: solider;
+	color:rgba(33,112,207,1.00);
+}
+.content-image a:active{
+	font-size:28px;
+	text-decoration: none;
+	color:rgba(33,112,207,1.00);
+}
+@media(max-width:768px)
+{
+	.frist{flex-direction: column;flex:1;}
+	.content-font,.content-image{flex:auto;}
+}
